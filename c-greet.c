@@ -17,5 +17,7 @@ int main (int argc, char *argv[]) {
   printf("hello, %s %s\n", argv[1], argv[2]);
   exit(2);
   }
+  
+    getchar();
   // system("ls");
 }
