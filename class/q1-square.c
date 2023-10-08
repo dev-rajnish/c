@@ -1,5 +1,7 @@
 /*
   * Q. Find the area and perimeter of Square.
+  * compile --  
+  *  gcc/clang -o q1-square q1-square.c -lm
 */
 
 #include <stdio.h>
