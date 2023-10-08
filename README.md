@@ -1,3 +1,3 @@
-#C
+# C
 
--- Source file of Learnings of C lang.
+- Source file of Learnings of C lang.
