@@ -1,21 +1,20 @@
-## Questions of C Class Of BCA
+## C Class of BCA - Programming Challenges
 
-### 08/09/23Q1.
+### Oct 8, 2023
+
+- **Q1:** Write a program to find the area and perimeter of square.
+
+- **Q2:** Write a program to find the area, diameter and circumference of circle.
+
+- **Q3:** Write a program to find the final velocity and displacement. 
+
+- **Q4:** Write a programto calculate simple interest.
 __ __
-- #### Q1. Write a program to find the area and perimeter of square.
+### Oct 9, 2023
 
-- #### Q2. Write a program to find the area, diameter and circumference of circle.
+- **Q5:** Write a program to find the  area and hypotenuse of right-angle triangle.
 
-- #### Q3. Write a program to find the final velocity and displacement. 
+- **Q6:** Write a program to calculate both simple and compound interest. (TTI)
 
-- #### Q4. Find simple interest.
-__ __
-
-### 09/09/23
-__ __
-- #### Q5. Find the area and hypotenus of right angle triangle.
-
-- #### Q6. Find the simple and compound interest. (TTI)
-
-- #### Q7. Find area and perimeter of a triangle.
+- **Q7.** Write a program to find the area and perimeter of any triangle.
 __ __
