@@ -10,7 +10,8 @@
 
 - **Q4:** Write a programto calculate simple interest.
 __ __
-### Oct 9, 2023
+### Oct 9, 2023ls
+
 
 - **Q5:** Write a program to find the  area and hypotenuse of right-angle triangle.
 
