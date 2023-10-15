@@ -7,4 +7,6 @@
 {
   puts("Hello World");
   getchar();
+  register  const long b = 5;
+  printf ("%ld", b);
 } 
