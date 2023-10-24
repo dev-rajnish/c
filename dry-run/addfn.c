@@ -7,6 +7,7 @@ int main( void )
   int a,b;
   scanf( "%d %d" , &a , &b  ) ;
   printf("Sum is %d", addfn( a , d ) ) ;
+  
 }
 
 int addfn( int a , int b )
