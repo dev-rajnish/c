@@ -3,8 +3,7 @@
 
 int main()
 {
-    long long num = 0.0;
-    char close = 0;
+    long long num = 0.0
 
     printf("Enter Number To Check Divisibility : ");
     scanf("%lld", &num);

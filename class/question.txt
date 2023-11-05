@@ -1,0 +1,4 @@
+Q.1.  wap to accept a ch check it vowel or not .
+
+Q 2 . WAP to accept a char vowel , semi- vowel ,consonant.
+

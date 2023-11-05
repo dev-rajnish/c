@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <limits.h>
 #define CLEAR_INPUT                                                            \
   while ((getchar() != '\n'))                                                  \
     ;
