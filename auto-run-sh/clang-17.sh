@@ -18,7 +18,7 @@ lvim $full_filename && clang-17 -o "$c_directory/cx/$filename_without_extension"
                 $filename_without_extension 
                 exit_code_of_c_ex="$?"
                 printf "\n\n\n\n"
-                printf "\e[0;34m program exited with code : \e[1;33m $exit_code_of_c_ex " | bat --style=grid && read -s -n1
+                printf "\e[0;34mprogram exited with code :\e[1;33m $exit_code_of_c_ex " | bat --style=grid && read -s -n1
 
 fi
   

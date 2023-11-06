@@ -10,7 +10,7 @@ int main()
 
   printf("Sum is %d", addfn( a , b ) ) ;
   
-  return 93;
+  return 0;
 }
 
 int addfn( int a , int b )
