@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
-#define CLEAR_INPUT                                                            \
-  while ((getchar() != '\n'))                                                  \
-    ;
+#include <stdlib.h>
 
 void divide_check(int num); // line 21
 
@@ -11,11 +9,11 @@ int main() {
   int num = 0;
   printf("num : ");
   scanf("%d", &num);
-  CLEAR_INPUT;
-
+  while(getchar()!='\n');//clear input buffer
+system("read -s -n1");
   divide_check(num);
 
-  getchar();
+  puts("press enter to exit");getchar();
   return 0;
 }
 

@@ -14,8 +14,11 @@ lvim $full_filename && clang-17 -o "$c_directory/cx/$filename_without_extension"
 
                 bat --style=full --theme "Monokai Extended" --paging never "$c_file"
                 printf "\e[1;33m |--   O U T P U T   --|" |  bat --style grid
-                $filename_without_extension ; printf "\n\n\n\n"
-                printf "                             \e[0;34m program exited with code : \e[1;32m $? " | bat --style=grid && read 
+                read -s -n1
+                $filename_without_extension 
+                exit_code_of_c_ex="$?"
+                printf "\n\n\n\n"
+                printf "\e[0;34m program exited with code : \e[1;33m $exit_code_of_c_ex " | bat --style=grid && read -s -n1
 
 fi
   

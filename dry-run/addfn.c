@@ -1,13 +1,16 @@
 #include <stdio.h>
-int d = 3456;
+
 int addfn( int a , int b ) ;
 
-int main( void )
+int main()
 {
   int a,b;
+  printf("Enter 2 num to add : ");
   scanf( "%d %d" , &a , &b  ) ;
-  printf("Sum is %d", addfn( a , d ) ) ;
+
+  printf("Sum is %d", addfn( a , b ) ) ;
   
+  return 93;
 }
 
 int addfn( int a , int b )
