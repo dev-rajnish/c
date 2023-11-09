@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <unistd.h>
 int main() {
-  int
+  int ms = 20000,i
     printf("%c\n\e[%dC", 53 + i, i);
     printf("\e[0m");
     fflush(stdout);
