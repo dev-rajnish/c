@@ -18,6 +18,6 @@ int main (int argc, char *argv[]) {
   exit(2);
   }
   
-    getchar();
+    system("read -s n1");
   // system("ls");
 }

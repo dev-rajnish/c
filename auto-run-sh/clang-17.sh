@@ -8,7 +8,7 @@ c_directory="/home/rajnish/data/codes/c"
 
 c_file=$(find "$c_directory" -name "$full_filename" 2>/dev/null)
 
-lvim $full_filename && clang-17 -o "$c_directory/cx/$filename_without_extension" "$c_file" -Wall 
+lvim $full_filename && clang-17  -Wall  "$c_file" -o "$c_directory/cx/$filename_without_extension" -lm -lncurses
 
  if [ $? -eq 0 ]; then
 

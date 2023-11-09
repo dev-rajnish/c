@@ -6,7 +6,8 @@ int alpha_type_fn(const char ch) {
   int alpha_type = 0;
 
   char ch_s = tolower(ch);
-  if (ch_s == 'a' || ch_s == 'e' || ch_s == 'i' || ch_s == 'o' || ch_s == 'u') {
+  if (ch_s == 'a' || ch_s == 'e' || ch_s == 'i' 
+       || ch_s == 'o' || ch_s == 'u') {
 
     // 5 means vowel
     // 2 means semivowel
@@ -33,7 +34,7 @@ int main() {
    *
    */
   int alpha_type = alpha_type_fn(ch);
-  if ( ! (ch <= 'a' && ch >= 'z')) {
+  if (!(ch <= 'a' && ch >= 'z')) {
     if (alpha_type == 5) {
       puts("Vowel");
     } else if (alpha_type == 2) {
