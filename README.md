@@ -1,31 +1,32 @@
-# __C__ _Stuff I created during my learning phase_
-> __No project repo__ 
+# __C__ 
+### Source files I created during my learning phase
+> __Its Not a project repo__ 
 > - __JUST__ Source files of my learnings 
 __ __
-__ __
+
 # C Programming Curriculum
 
 This is a complete list of 24 chapters covering basic to advanced C programming concepts:
 
-## 1. Introduction to C
+## 1. Introduction to C  . ✅
 - History and Features
 - Structure of a C Program
 - Compilation Process
 
-## 2. Basic Syntax
+## 2. Basic Syntax ✅
 - Variables and Data Types
 - Constants
 - Operators
 
-## 3. Control Statements
+## 3. Control Statements ✅
 - If-else Statements
 - Switch Statements
 - Loops (while, for, do-while)
 
-## 4. Functions
-- Function Declaration and Definition
-- Function Prototypes
-- Function Parameters and Return Values
+## 4. Functions ✅
+- Function Declaration and Definition ✅
+- Function Prototypes ✅
+- Function Parameters and Return Values ✅
 - Recursion
 
 ## 5. Arrays and Strings

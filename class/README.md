@@ -15,7 +15,11 @@ __ __
 
 - **Q5:** Write a program to find the  area and hypotenuse of right-angle triangle.
 
-- **Q6:** Write a program to calculate both simple and compound interest. (TTI)
+- **?:** Write a program to calculate both simple and compound interest. (TTI)
 
-- **Q7.** Write a program to find the area and perimeter of any triangle.
+- **?.** Write a program to find the area and perimeter of any triangle.
 __ __
+
+- **?:** WAP to accept a character check it is vowel or not .
+
+- **?:** WAP to accept a character check it is vowel, semi- vowel, or consonant.
