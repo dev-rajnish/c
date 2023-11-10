@@ -16,25 +16,28 @@ int main() {
   if (num < 0) {
     num = -num;
   }
-  // printing number
+  /* printing number  */
   for (int i = num; i >= -num; i--) {
 
     if (i == 0) {
       printf("\e[1;31m% 5d\e[0m", i);
       fflush(stdout);
+
     } else if (i < 0) {
       printf("\e[33m%+5d\e[0m", i);
       fflush(stdout);
+
     } else {
       printf("\e[36m%+5d\e[0m", i);
       fflush(stdout);
+
     }
     usleep(100000);
   }
   puts("");
   fflush(stdout);
 
-  // printing ____|
+  /* printing ____|  */
   for (int i = num; i >= -num; i--) {
     printf("\e[0;4m    |");
     fflush(stdout);
@@ -44,13 +47,13 @@ int main() {
   puts("    ");
   fflush(stdout);
 
-  // printing `    |`
+  /* printing `    |` */
   for (int i = num; i >= -num; i--) {
     printf("\e[0m    |");
     fflush(stdout);
 
     usleep(100000);
   }
-  getchar();
-  getchar();
+
+  return 0;
 }
