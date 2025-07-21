@@ -32,7 +32,7 @@ int main() {
       fflush(stdout);
 
     }
-    usleep(100000);
+    usleep(0);
   }
   puts("");
   fflush(stdout);
@@ -42,7 +42,7 @@ int main() {
     printf("\e[0;4m    |");
     fflush(stdout);
 
-    usleep(100000);
+    usleep(0);
   }
   puts("    ");
   fflush(stdout);
@@ -52,7 +52,7 @@ int main() {
     printf("\e[0m    |");
     fflush(stdout);
 
-    usleep(100000);
+    usleep(0);
   }
 
   return 0;
